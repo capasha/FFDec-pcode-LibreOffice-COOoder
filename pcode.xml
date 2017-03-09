@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:language xmlns:l="http://cedric.bosdonnat.free.fr/coooder/language/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cedric.bosdonnat.free.fr/coooder/language/ language.xsd " id="pcode" name="JpexsPcode" objectOriented="true" escapeChar="\">
+    <l:objectSplitters>
+        <l:splitter id="splitter_1" value="." />
+    </l:objectSplitters>
+    <l:comments caseSensitive="false">
+        <l:single id="comments_1">
+            <l:opening>;</l:opening>
+        </l:single>
+    </l:comments>
+    <l:symbols>
+        <l:set id="symbols_0">
+            <l:value>+</l:value>
+            <l:value>-</l:value>
+            <l:value>*</l:value>
+            <l:value>?</l:value>
+            <l:value>=</l:value>
+            <l:value>/</l:value>
+            <l:value>%</l:value>
+            <l:value>&amp;</l:value>
+            <l:value>&gt;</l:value>
+            <l:value>&lt;</l:value>
+            <l:value>^</l:value>
+            <l:value>!</l:value>
+            <l:value>(</l:value>
+            <l:value>)</l:value>
+            <l:value>{</l:value>
+            <l:value>}</l:value>
+            <l:value>[</l:value>
+            <l:value>]</l:value>
+            <l:value>|</l:value>
+			<l:value>,</l:value>
+        </l:set>
+            <l:set id="symbols_1">
+            <l:value>:</l:value>
+        </l:set>
+    </l:symbols>
+    <l:quotemarks>
+		<l:value>"</l:value>
+    </l:quotemarks>
+    <l:hardquoteEscapes>
+		<l:value>""</l:value>
+    </l:hardquoteEscapes>
+    <l:keywords>
+        <l:set id="keywords_1" caseSensitive="false">
+			<l:value>jump</l:value>
+			<l:value>code</l:value>
+			<l:value>constructsuper</l:value>
+			<l:value>trait</l:value>
+			<l:value>dispid</l:value>
+			<l:value>method</l:value>
+			<l:value>param</l:value>
+			<l:value>returns</l:value>
+			<l:value>body</l:value>
+			<l:value>maxstack</l:value>
+			<l:value>localcount</l:value>
+			<l:value>initscopedepth</l:value>
+			<l:value>maxscopedepth</l:value>
+            <l:value>dup</l:value>
+			<l:value>pop</l:value>
+			<l:value>nop</l:value>
+			<l:value>not</l:value>
+			<l:value>add</l:value>
+			<l:value>add_i</l:value>
+			<l:value>add_p</l:value>
+			<l:value>add_d</l:value>
+			<l:value>subtract</l:value>
+			<l:value>subtract_i</l:value>
+			<l:value>subtract_p</l:value>
+			<l:value>decrement</l:value>
+			<l:value>increment</l:value>
+			<l:value>multiply</l:value>
+			<l:value>multiply_i</l:value>
+			<l:value>multiply_p</l:value>
+			<l:value>divide</l:value>
+			<l:value>label</l:value>
+			<l:value>equals</l:value>
+			<l:value>greaterequals</l:value>
+			<l:value>swap</l:value>
+			<l:value>throw</l:value>
+			<l:value>timestamp</l:value>
+			<l:value>typeof</l:value>
+			<l:value>urshift</l:value>
+			<l:value>applytype</l:value>
+			<l:value>astype</l:value>
+			<l:value>astypelate</l:value>
+			<l:value>bitand</l:value>
+			<l:value>bitnot</l:value>
+			<l:value>bitor</l:value>
+			<l:value>bitxor</l:value>
+			<l:value>bkpt</l:value>
+			<l:value>bkptline</l:value>
+			<l:value>kill</l:value>
+			<l:value>rshift</l:value>
+			<l:value>value</l:value>
+			<l:value>type</l:value>
+			<l:value>rsh</l:value>
+			<l:value>negate</l:value>
+			<l:value>negate_i</l:value>
+			<l:value>negate_p</l:value>
+			<l:value>slotid</l:value>
+			<l:value>newarray</l:value>
+			<l:value>newcatch</l:value>
+			<l:value>newclass</l:value>
+			<l:value>newfunction</l:value>
+			<l:value>newobject</l:value>
+			<l:value>nextname</l:value>
+			<l:value>name</l:value>
+			<l:value>nextvalue</l:value>
+			<l:value>returnvoid</l:value>
+			<l:value>end</l:value>
+			<l:value>in</l:value>
+			<l:value>trait</l:value>
+			<l:value>inclocal</l:value>
+			<l:value>inclocal_i</l:value>
+			<l:value>inclocal_p</l:value>
+			<l:value>increment</l:value>
+			<l:value>coerce</l:value>
+			<l:value>coerce_s</l:value>
+			<l:value>lookupswitch</l:value>
+            <l:value>getlocal_0</l:value>
+			<l:value>setlocal_1</l:value>
+			<l:value>setlocal_2</l:value>
+			<l:value>setlocal_3</l:value>
+			<l:value>setlocal</l:value>
+			<l:value>getlocal</l:value>
+			<l:value>getlocal_0</l:value>
+			<l:value>getlocal_1</l:value>
+			<l:value>getlocal_2</l:value>
+			<l:value>getlocal_3</l:value>
+			<l:value>getproperty</l:value>
+			<l:value>callproperty</l:value>
+			<l:value>getlex</l:value>
+			<l:value>setproperty</l:value>
+			<l:value>findpropstrict</l:value>
+			<l:value>constructprop</l:value>
+			<l:value>initproperty</l:value>
+            <l:value>pushscope</l:value>
+			<l:value>popscope</l:value>
+			<l:value>pushstring</l:value>
+			<l:value>pushbyte</l:value>
+			<l:value>pushint</l:value>
+			<l:value>pushdouble</l:value>
+			<l:value>pushtrue</l:value>
+			<l:value>pushfalse</l:value>
+			<l:value>pushnull</l:value>
+			<l:value>pushshort</l:value>
+			<l:value>pushdecimal</l:value>
+			<l:value>pushfloat</l:value>
+			<l:value>pushnamespace</l:value>
+			<l:value>pushnan</l:value>
+			<l:value>pushuint</l:value>
+			<l:value>pushundefined</l:value>
+			<l:value>pushwith</l:value>
+            <l:value>convert_i</l:value>
+            <l:value>convert_b</l:value>
+			<l:value>convert_d</l:value>
+            <l:value>ifne</l:value>
+            <l:value>ifstrictne</l:value>
+			<l:value>ifeq</l:value>
+            <l:value>ifneq</l:value>
+			<l:value>ifngt</l:value>
+			<l:value>ifge</l:value>
+			<l:value>ifgt</l:value>
+			<l:value>ifle</l:value>
+			<l:value>iflt</l:value>
+			<l:value>ifnge</l:value>
+			<l:value>ifngt</l:value>
+			<l:value>ifnle</l:value>
+			<l:value>ifnlt</l:value>
+			<l:value>ifstricteq</l:value>
+			<l:value>ifstricteq</l:value>
+            <l:value>iffalse</l:value>
+            <l:value>iftrue</l:value>
+            <l:value>method</l:value>
+        </l:set>
+		<l:set id="keywords_0" caseSensitive="true">
+			<l:value>Qname</l:value>
+			<l:value>PackageNamespace</l:value>
+			<l:value>PackageInternalNs</l:value>
+			<l:value>callpropvoid</l:value>
+			<l:value>PrivateNamespace</l:value>
+			<l:value>Null</l:value>
+			<l:value>Utf8</l:value>
+			<l:value>Undefined</l:value>
+			<l:value>False</l:value>
+			<l:value>True</l:value>
+			<l:value>Integer</l:value>
+			<l:value>slot</l:value>
+		</l:set>
+    </l:keywords>
+    <l:regexps>
+    	<l:regexp id="regexp_0" value="ofs[a-fA-f0-9]{1,4}"/>
+    </l:regexps>
+    <l:styles>
+        <l:style element="comments_1" color="339933" italic="true" />
+        <l:style element="symbols_0" color="AC00AC" />
+        <l:style element="symbols_1" color="000000" />
+        <l:style element="keywords_0" color="007F7F" />
+		<l:style element="keywords_1" color="0000FF" />
+        <l:style element="string" color="CC6600" />
+        <l:style element="number" color="999933" />
+        <l:style element="regexp_0" color="000000" />
+        <l:style element="escaped" color="CC6600" bold="true" />
+    </l:styles>
+</l:language>
